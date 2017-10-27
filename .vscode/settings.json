@@ -29,6 +29,12 @@
         "system_error": "cpp",
         "tuple": "cpp",
         "type_traits": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "string": "cpp",
+        "vector": "cpp",
+        "iterator": "cpp",
+        "algorithm": "cpp",
+        "sstream": "cpp",
+        "fstream": "cpp"
     }
 }
