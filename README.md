@@ -1,6 +1,6 @@
 # C++ example
 
-```g++ -g -std=c++11 example-**N**.cpp -o example-**N**.exe```
+```g++ -g -std=c++11 example-**N**.cpp -o example.exe```
 
 ### Парочка задач на многопоточность.
 

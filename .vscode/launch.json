@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "(Windows) Launch",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceRoot}/example.exe",
+      "args": [],
+      "stopAtEntry": false,
+      "cwd": "${workspaceRoot}",
+      "environment": [],
+      "externalConsole": true,
+      "windows": {
+        "MIMode": "gdb",
+        "miDebuggerPath": "C:/Users/zharikov/MinGW/bin/gdb.exe"
+      }
+    }
+  ]
+}
