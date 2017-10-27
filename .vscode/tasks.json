@@ -4,10 +4,12 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "taskName": "run",
+      "taskName": "example-1.cpp run",
       "type": "shell",
       "command": "./a.exe",
-      "dependsOn": ["build"],
+      "dependsOn": [
+        "build"
+      ],
       "group": {
         "kind": "build",
         "isDefault": true
@@ -20,11 +22,16 @@
       }
     },
     {
-      "taskName": "build",
+      "taskName": "example-1.cpp build",
       "type": "shell",
       "command": "g++",
-      "args": ["-g", "-std=c++11", "a1.cpp"],
-      "isBackground": true
+      "args": [
+        "-g",
+        "-std=c++11",
+        "example-1.cpp"
+      ],
+      "isBackground": true,
+      "problemMatcher": []
     }
   ]
 }
