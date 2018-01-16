@@ -30,3 +30,15 @@
     Surname Pupkin
     City Moscow
     ```
+## cpp-example-binary-file-r-w > file-rw-example.cpp
+
+Простой пример реализации чтения и записи в бинарный файл.
+
+```
+g++ -g -std=c++11 main.cpp -o example.exe
+```
+
+```c++
+file.write(reinterpret_cast<const char *>(&value), sizeof(value));
+file.read(reinterpret_cast<char *>(&value), sizeof(value));
+```
